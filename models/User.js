@@ -4,9 +4,9 @@ const mongoose = require('mongoose');
 const userSchema = mongoose.Schema({
     name: {
         type: String,
-        maxlenth: 50
+        maxlength: 50
     },
-    enail: {
+    email: {
         type: String,
         trim: true,
         uniqe:1
